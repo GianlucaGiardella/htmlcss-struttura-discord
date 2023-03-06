@@ -18,19 +18,27 @@
     border: 2px dashed black;
 }
 
-.nav_background {
-    padding: 15px;
+.flex_box {
+    display: flex;
+}
+
+
+
+
+
+header {
     background-color: lightskyblue;
+    padding: 15px 0 3px 0;
 }
 
 nav {
-    display: flex;
     justify-content: space-between;
 }
 
 header nav>p {
     background-color: gold;
     border: 1px dashed black;
+    margin-bottom: 15px;
     padding: 5px;
     flex: 0 0 20%;
 }
@@ -44,14 +52,12 @@ header nav>p {
     background-color: darkblue;
 }
 
-.violet {
+.violet_container {
+    height: 400px;
     width: 800px;
     margin: auto;
     background-color: violet;
-}
-
-.flex_box {
-    display: flex;
+    border: 2px dashed black;
 }
 
 .skyblue {
@@ -86,6 +92,7 @@ header nav>p {
 .darkcyan {
     flex: 0 0 calc(100% / 6);
     background-color: darkcyan;
+    border: 2px dashed white;
 }
 
 .top_footer {
