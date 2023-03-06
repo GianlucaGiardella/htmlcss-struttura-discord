@@ -48,6 +48,10 @@ header nav>p {
     text-align: center;
 }
 
+nav p:last-child {
+    text-align: right;
+}
+
 .blue {
     background-color: darkblue;
 }
