@@ -15,7 +15,7 @@
 
 .container {
     height: 500px;
-    border: 1px solid black;
+    border: 2px dashed black;
 }
 
 .nav_background {
@@ -28,9 +28,9 @@ nav {
     justify-content: space-between;
 }
 
-nav>p {
+header nav>p {
     background-color: gold;
-    border: 1px solid black;
+    border: 1px dashed black;
     padding: 5px;
     flex: 0 0 20%;
 }
@@ -55,12 +55,12 @@ nav>p {
 }
 
 .skyblue {
-    flex: 0 0 60%;
+    flex: 0 1 60%;
     background-color: skyblue;
 }
 
 .pink {
-    flex: 0 0 40%;
+    flex: 0 1 40%;
     background-color: pink;
 }
 
@@ -71,4 +71,39 @@ nav>p {
 .green_container {
     height: 800px;
     background-color: green;
+    border: 2px dashed black;
+}
+
+.dimgrey {
+    background-color: dimgrey;
+}
+
+.salmon {
+    flex: 0 0 calc(100% / 3);
+    background-color: salmon;
+}
+
+.darkcyan {
+    flex: 0 0 calc(100% / 6);
+    background-color: darkcyan;
+}
+
+.top_footer {
+    padding: 10px 0 40px 0;
+    border-bottom: 2px solid white;
+}
+
+.bottom_footer {
+    padding-top: 20px;
+}
+
+footer nav {
+    padding: 15px 0;
+    background-color: aquamarine;
+}
+
+footer nav>p {
+    padding: 5px 10px;
+    background-color: pink;
+    border: 1px dashed black;
 }
