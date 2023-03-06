@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lightblue_bg{
+    padding: 20px;
+    background-color: lightskyblue;
+}
+
+nav {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.max_width {
+    width: 80%;
+    margin: auto;
+}
+
+nav>p {
+    background-color: gold;
+    border: 1px solid black;
+    padding: 5px;
+    flex: 0 0 20%;
+}
+
+.link {
+    flex: 0 0 60%;
+    text-align: center;
+}
+
+.blue_bg{
+    background-color: blue;
+    padding: 50px;
+}
+
+.pink_container{
+    height: 500px;
+    width: 60%;
+    margin: auto;
+    background-color: pink;
+    border: 1px solid black;
+}
